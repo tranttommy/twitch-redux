@@ -1,10 +1,6 @@
-const initialState = {
-  thumbnails: ['devinnash', 'cdewx']
-};
+import { combineReducers } from 'redux';
+import thumbnails from './thumbnailReducer';
 
-export default function reducer(state = initialState, action) {
-  switch(action.type) {
-    default:
-      return state;
-  }
-}
+export default combineReducers({
+  thumbnails
+});

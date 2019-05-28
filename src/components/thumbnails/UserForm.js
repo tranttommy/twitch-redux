@@ -22,7 +22,6 @@ export default class UserForm extends PureComponent {
 
 
   render() {
-    console.log(this.props)
     return (
       <form onSubmit={this.onSubmit}>
         <input placeholder="username here" onChange={this.onChange} />

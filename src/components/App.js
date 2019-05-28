@@ -1,8 +1,8 @@
 import React from 'react';
-import Thumbnails from './thumbnails/Thumbnails';
+import AllThumbnails from '../containers/AllThumbnails';
 
 export default function App() {
   return (
-    <Thumbnails thumbnails={['devinnash', 'cdewx']} />
+    <AllThumbnails />
   );
 }

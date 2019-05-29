@@ -9,7 +9,7 @@ function Stream({ username }) {
       <iframe
         src={`https://player.twitch.tv/?channel=${username}`}
         frameBorder="0"
-        allowFullscreen="true"
+        allowFullScreen={true}
         scrolling="no"
         height="378"
         width="620"
